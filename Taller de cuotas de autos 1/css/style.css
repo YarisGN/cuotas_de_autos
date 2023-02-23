@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+*{
+    margin: 0;
+}
+form{
+    margin-left: 35%;
+    margin-top: 8%;
+}
+.auto{
+    margin-left: 58%;
+    margin-bottom: 10%;
+    margin-top: -7%;
+}
+img{
+    height: 27%;
+    width: 27%;
+}
+.cuota{
+    color: aliceblue;
+    background-color: rgb(17, 136, 28);
+    margin-left: 35%;
+    padding: 5px;
+    cursor: pointer;
+}
+.cuota:hover{
+    background-color: rgb(145, 11, 11);
+    color: #f0f8ff;
+    transition: 0.4s;
+}
+.color{
+    background-color: rgba(253, 250, 245, 0.509);
+}
+.cuotaX{
+    background-color: black;
+    color: aliceblue;
+    margin-right: 120%;
+    margin-left: -55%;
+    margin-top: -10%;
+    padding: 2%;
+}
+label, select{
+    padding: 5px;
+}

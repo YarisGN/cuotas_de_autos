@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuotas</title>
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="css/style.css">    
+</head>
+<body>
+    <h1>Yaris Gómez Narváez</h1>
+
+    <div>
+        <form>
+            <br><br>
+            <label for="genero">GENERO: </label>
+            <select name="genero" size="1" id="genero" class="color">
+                <option value=""></option>
+                <option value="mujer">Mujer</option>
+                <option value="hombre">Hombre</option>
+            </select>
+            <br><br>
+            <label for="edad">EDAD: </label>
+            <input type="number" id="edad" name="edad" min="16" max="86" class="color">
+            <br><br>
+        </form>
+        <button class="cuota" name="cuota" onclick="sub();">VER CUOTA</button>
+        <br><br>
+    </div>
+
+    <div class="auto">
+        <img src="img/icon.png" alt="auto">
+        <div id="cuota" class="cuotaX"> 
+            
+        </div>  
+    </div>
+
+    <script src="JavaScript/codigo.js"> </script>    
+</body>
+</html>

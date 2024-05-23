@@ -2,7 +2,7 @@
 
 Aplicación web que se encarga de calcular el precio de su póliza, dependiendo del genero y la edad.
 
-## Capturas de Pantalla
+## Captura de Pantalla
 
 ![Alt text](cuotas_de_autos.png)
 
